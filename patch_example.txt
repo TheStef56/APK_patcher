@@ -1,0 +1,24 @@
+// Java syntax highlighting is really good for this file format.
+
+// Replace the 1st line with 'const/16 v0, 0x0' in the file 'example.smali' extracted from the class 'classes.dex' 
+
+[classes/example/example.smali:1:w]
+{    const/16 v0, 0x0}
+
+// Appends after the 10th line 'const/16 v0, 0x0' for 5 rows in the file 'example2.smali' extracted from the class 'classes2.dex'
+
+[classes2/example2/example2.smali:10:a]
+{    const/16 v0, 0x0}
+{    const/16 v0, 0x0}
+{    const/16 v0, 0x0}
+{    const/16 v0, 0x0}
+{    const/16 v0, 0x0}
+
+// Removes five lines starting from the 206th line in the file 'example3.smali' extracted from the class 'classes3.dex'
+
+[classes3/example3/example3.smali:206:w]
+{}
+{}
+{}
+{}
+{}
